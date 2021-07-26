@@ -1,0 +1,22 @@
+package com.company;
+
+import com.sun.jdi.Value;
+import com.sun.security.jgss.GSSUtil;
+import org.w3c.dom.ls.LSOutput;
+
+import java.security.spec.RSAOtherPrimeInfo;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int number=in.nextInt();
+        int root=(int) Math.sqrt(number);
+        System.out.println((root*root==number)?"Perfect Number":"Not Perfect");
+
+
+    }
+}
+
